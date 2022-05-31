@@ -1,0 +1,325 @@
+#urna{
+
+    display: grid;
+
+    background-color: white;
+    
+    width: 50%;
+    height: 25rem;
+    position: absolute;
+    left: 17%;
+    top: 20%;
+    padding-left: 15%;
+    margin: 0%;
+
+
+
+}
+
+#tela{
+padding: 29px;
+background-color: rgb(227, 217, 217);
+width: 400px;
+height: 15rem;
+border:  1px solid black;
+top: 13%;
+position: absolute;
+left: 5%;
+
+margin: 0%;
+
+   
+}
+
+#tela:hover{
+    background-color: rgba(227, 217, 217, 0.454);
+}
+
+#texto{
+    position: relative;
+    left: 50%;
+    background-color: rgb(227, 217, 217);
+    width: 339px;
+    text-align: center;
+    border-radius: 10px;
+    height: 90px;
+    display: flex;
+    
+}
+
+
+#teclado{
+    padding: 20px;
+    background-color: rgba(19, 18, 18, 0.698);
+    width: 30%;
+    position: relative;
+    left: 58%;
+    height: 280px;
+    top: -8%;
+    border:  1px solid black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#camada{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 75%;
+    width: 260px;
+    margin-left: -55px;
+  
+   
+}
+
+#branco{
+    position: relative;
+    top: 60%;
+   width: 100px;
+   height: 50px;
+    background-color: white;
+    color: black;
+    left: -70px;
+    margin: 0%;
+    text-align: center;
+    box-shadow: 1px 2px 2px 2px black;
+    padding: 0%
+   
+   
+   
+   
+}
+
+header{
+    color: rgb(16, 15, 15);
+    background-color: white;
+    height: 3rem;
+    width: 99%;
+    padding: 0%;
+   
+
+    margin: 0%;
+    padding: 0%;
+}
+
+#alerta{
+
+    position: relative;
+    left:-1%;
+    top: 1%;
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#branco:hover{
+
+    background-color: rgb(215, 218, 221);
+}
+
+span{
+    position: relative;
+    left: 109px;
+    text-align: center;
+    margin: 0%;
+   
+}
+
+#fimm{
+
+    background-color: rgb(213, 213, 216);
+    padding: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fim{
+    display: none;
+}
+
+#corrige{
+    position: relative;
+    top: 90%;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(163, 24, 24);
+    top: 60%;
+    left: -60px;
+    text-align: center;
+    box-shadow: 1px 2px 2px 2px black;
+    padding: 0%
+   
+   
+}
+
+
+
+#corrige:hover{
+    background-color: rgb(221, 16, 16);
+
+}
+p{
+    left: 90px;
+    position: relative;
+   
+   
+   
+   
+}
+
+.cor{
+    color: blanchedalmond;
+    width: 15%;
+    position: relative;
+    left: 6.5%;
+}
+
+.cor:hover{
+   color: blueviolet;
+}
+
+#mae{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+img{
+    width: 50px;
+    position: relative;
+    right: 1px;
+    height: 90px;
+    
+}
+
+#font{
+    margin: 0;
+    padding: 0%;
+    position: relative;
+    top: 40%;
+    left: 9px;
+}
+
+input{
+
+    position: relative;
+    top: 50%;
+    width: 9%;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+
+#confirma{
+
+    position: relative;
+   
+    width: 109px;
+    height: 50px;
+    background-color: green;
+    left: 149px;
+    top: 34%;
+    text-align: center;
+    box-shadow: 1px 2px 2px 2px black;
+   padding: 0%;
+   
+   
+    
+
+}
+
+#confirma:hover{
+
+    background-color: rgb(16, 194, 16);
+
+}
+
+button{
+
+    padding: 18px;
+    position: relative;
+    background-color: rgb(30, 27, 27);
+    color: white;
+    left: 6px;
+    width: 63px;
+    margin: 0.8px;
+    
+}
+
+#gg{
+    width: 100%;
+    height: 100%;
+}
+
+#foto{
+    position: relative;
+    left: 70%;
+    width: 120px;
+    height: 150px;
+    background-color: rgb(227, 217, 217);
+
+}
+
+
+button:hover{
+    background-color: rgb(46, 44, 44);
+}
+
+#tecla2{
+    display: flex;
+   flex-wrap: wrap;
+   height: 40%;
+   width: 95%;
+   position: relative;
+   
+
+   
+
+}
+
+#oi{
+
+    background-color: rgba(19, 18, 18, 0.698);
+   opacity:0%;
+   
+  
+}
+
+
+body{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+.pisca{
+    background-color: rgb(217, 207, 227);
+}
+
+
+@keyframes piscar{
+    0%{opacity: 0.2;}
+    50%{opacity: 1;}
+    100%{opacity: 0.2;}
+
+
+   }
+
+.piscar  {
+animation-name: piscar;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+
+
+}  

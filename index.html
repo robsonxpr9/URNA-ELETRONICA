@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URNA ELETRONICA</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+      <div id="mae"> <div class="cor"><p>BOLSONARO (22)</p></div> <div class="cor"><p>LULA SILVA (13)</p>
+      </div><div class="cor"><p>CIRO GOMES (12)</p></div><div class="cor"><p>JOÃO DORIA (45)</p>
+      </div><div class="cor"><p>ANDRÉ JANONES (70)</p></div></div>
+
+    <div id="urna">
+
+    <div id="tela">
+
+        <h3 id="font">PRESIDENTE</h3>
+
+        <input class="piscar" type="number" id="imp1" value=""> 
+        <input type="number" id="imp2">
+        <span></span>
+        <div id="foto">
+           
+        </div>
+        <span id="alerta"></span>
+    </div>
+
+    <div id="texto">
+      <img src="img/images-removebg-preview.png" alt="">  <p>JUSTIÇA <br>ELEITORAL</p>
+    </div>
+
+    <div id="teclado">
+        
+
+        <div id="tecla2">
+            
+
+          <button onclick="valores( '1')">1</button> <button onclick="valores('2' )">2</button> <button onclick="valores('3' )">3</button> 
+          <button onclick="valores('4' )">4</button> <button onclick="valores('5' )">5</button> <button onclick="valores('6')">6</button>
+          <button onclick="valores('7' )">7</button> <button onclick="valores('8')">8</button> <button onclick="valores('9')">9</button>
+          <button id="oi" value="0">0</button>
+          <button onclick="valores('0' )">0</button>
+         
+         
+        </div>
+        <audio src="audio/SOM.MP3"></audio>
+        <button id="branco">BRANCO</button>  <button id="corrige" onclick="window.location.reload()">CORRIGE</button> 
+             <button id="confirma" onclick="fim(audios)">CONFIRMA</button>
+
+           
+        
+      
+
+    </div>
+
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
