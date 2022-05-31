@@ -42,8 +42,9 @@ margin: 0%;
     width: 339px;
     text-align: center;
     border-radius: 10px;
-    height: 90px;
+    height: 80px;
     display: flex;
+    margin-bottom: 30px;
     
 }
 
@@ -76,12 +77,12 @@ margin: 0%;
 
 #branco{
     position: relative;
-    top: 60%;
-   width: 100px;
-   height: 50px;
+    top: 40.2%;
+   width: 70px;
+   height: 49px;
     background-color: white;
     color: black;
-    left: -70px;
+    left: -19px;
     margin: 0%;
     text-align: center;
     box-shadow: 1px 2px 2px 2px black;
@@ -141,11 +142,11 @@ span{
 #corrige{
     position: relative;
     top: 90%;
-    width: 100px;
+    width: 70px;
     height: 50px;
     background-color: rgb(163, 24, 24);
-    top: 60%;
-    left: -60px;
+    top: 40%;
+    left: -10px;
     text-align: center;
     box-shadow: 1px 2px 2px 2px black;
     padding: 0%
@@ -220,11 +221,11 @@ input{
 
     position: relative;
    
-    width: 109px;
+    width: 80px;
     height: 50px;
     background-color: green;
-    left: 149px;
-    top: 34%;
+    left: 140px;
+    top: 14%;
     text-align: center;
     box-shadow: 1px 2px 2px 2px black;
    padding: 0%;
